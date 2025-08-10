@@ -1,5 +1,6 @@
 import pandas as pd
 from .fetch_sec import fetch_sec_ipos
+from .config import load_config
 from .fetch_nasdaq import fetch_nasdaq_ipos
 from .config.py import load_config
 
